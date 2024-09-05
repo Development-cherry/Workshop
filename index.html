@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.nav_container{
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    position: fixed;
+    background-color: white;
+    z-index: +1;
+}
+.nav_right{
+    width: 40%;
+    display: flex;
+   justify-content: center;
+   column-gap: 50px;
+
+}
+.nav_left{
+    width: 60%;
+    padding: px 100px;
+}
+
+
+.section_1{
+    position: relative;
+    display: flex;
+}
+
+.section_sub{
+    width: 50%;
+    padding: 10%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:sans-serif;
+    color: white;
+    row-gap: 2rem;
+
+}
+
+
+.section_sub1{
+
+    font-size: 40px;
+}
+
+.section_sub2{
+    font-size: 30px;
+}
+
+.btn{
+    width: 120px; 
+   height: 50px;
+   background-color: rgba(255, 255, 255, 0.795);
+   text-align: center;
+   padding: 15px;
+   border-radius: 5px;
+   color: black;
+}
+
+
+
+
+.section_2{
+
+width: 100%;
+height: 100%;
+
+
+
+
+}
+
+.section_2sub2{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    
+}
+
+.section2_sub2a{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 10px;}
+    </style>
+</head>
+<body>
+    <nav class="nav_container">
+<div class="nav_left">
+    <h2>Travel</h2>
+</div>
+<div class="nav_right">
+    <div><h4>Home</h4></div>
+    <div><h4>Services</h4></div>
+    <div><h4>Contact &nbsp; Us</h4></div>
+</div>
+    </nav>
+    <section class="section_1">
+        <img src="./images/person-standing-rock.jpg" width="100%" height="100%" alt="background_image">
+
+        <div class="section_sub">
+
+            <div class="section_sub1">
+               <h1>Fuel Mind Travel</h1>
+            </div>
+
+            <div class="section_sub2">
+               <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis soluta aut voluptate</h6>
+            </div>
+   
+            <div class="btn">
+                Lets Go now
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_2">
+        <div class="section_2sub1">
+           <p>Start your vacation With lots of Services</p>
+        </div>
+
+        <div class="section_2sub2">        
+            <div class="section2_sub2a">
+              <img src="./images/person-standing-rock.jpg" width="40px" height="40px" alt="">
+              <p>Ship Cruise</p>
+            </div>
+            <div class="section2_sub2a">
+                <img src="./images/person-standing-rock.jpg" width="40px" height="40px" alt="">
+                <p>Ship Cruise</p>
+            </div>
+            <div class="section2_sub2a">
+                <img src="./images/person-standing-rock.jpg" width="40px" height="40px" alt="">
+                <p>Ship Cruise</p>
+            </div>
+       </div>
+    </section>
+</body>
+</html>
